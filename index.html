@@ -21,31 +21,31 @@
   <div id="footer"></div>
 
   <script>
-    fetch('header.html')
+    fetch('./subpages/header.html')
       .then(response => response.text())
       .then(data => document.getElementById('header').innerHTML = data);
   </script>
 
   <script>
-    fetch('menu.html')
+    fetch('./subpages/menu.html')
       .then(response => response.text())
       .then(data => document.getElementById('menu').innerHTML = data);
   </script>
 
   <script>
-    fetch('about.html')
+    fetch('./subpages/about.html')
       .then(response => response.text())
       .then(data => document.getElementById('about').innerHTML = data);
   </script>
 
   <script>
-    fetch('contact.html')
+    fetch('./subpages/contact.html')
       .then(response => response.text())
       .then(data => document.getElementById('contact').innerHTML = data);
   </script>
 
   <script>
-    fetch('footer.html')
+    fetch('./subpages/footer.html')
       .then(response => response.text())
       .then(data => document.getElementById('footer').innerHTML = data);
   </script>
