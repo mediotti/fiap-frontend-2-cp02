@@ -1,0 +1,45 @@
+/* Estilos para o cabeçalho */
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* Estilos para o cardápio */
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para a seção "Sobre Nós" */
+#about {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos para a seção "Contato" */
+#contact {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos para o rodapé */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.social-links a {
+  font-size: 24px;
+  margin: 0 10px;
+}
